@@ -1,0 +1,10 @@
+# scratch / debug renders used during QA
+wip/
+
+# derived archives (regenerate with: python3 package_all.py)
+# the ZIP itself is committed as a deliverable; the base64 is pure duplication
+*.zip.base64.txt
+
+# python
+__pycache__/
+*.pyc
